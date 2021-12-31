@@ -3,7 +3,6 @@ const { route } = require('express/lib/application');
 const router = express.Router();
 const userController = require('../controllers/userController');
 const verified = require('../routes/verify');
-const { checkrole } = require('./checkrole');
 
 // Routes
 
